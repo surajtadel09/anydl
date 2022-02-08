@@ -1,5 +1,5 @@
 
-FROM python:3.9.1-buster
+FROM python
 ENV config_URL="https://github.com/dhruv-2015/anydl/raw/master/sample_config.py"
 WORKDIR /root/bot
 ENV PORT=3535
